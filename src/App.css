@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
 .container{
   position:relative;
   display: flex;
@@ -16,18 +19,27 @@
   border-radius: 5%;
   margin: 2rem;
   position:absolute;
-  align-items: center;
   display: flex;
-  width: 70%;
-  height: 70%;
-  background-color: rgb(197, 196, 196);
+  width: 80%;
+  height: 50%;
   position: absolute;
 
-  background: linear-gradient(25deg, rgba(2,0,36,0.22) 0%, rgba(222,217,217,0.22) 100%); 
+  background: linear-gradient(25deg, rgba(37,32,32,0.22) 0%, rgba(222,217,217,0.22) 100%); 
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(12.6px);
   -webkit-backdrop-filter: blur(12.6px);
   border: 1px solid rgba(249, 247, 247, 0.6);
     
+}
+
+/* Design da fonte */
+.conteudo-titulo{
+  align-items: flex-start;
+  color:rgb(255, 255, 254);
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  padding: 3%;
 }
